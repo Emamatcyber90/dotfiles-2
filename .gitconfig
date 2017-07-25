@@ -86,6 +86,3 @@
   pushNonFastForward = false
   implicitIdentity = false
   detachedHead = false
-[user]
-  name = Athens Production User
-  email = ComUS.ToolsAthens.us@unify.com

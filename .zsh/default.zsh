@@ -51,6 +51,3 @@ test -d "/snap/bin" && PATH="/snap/bin:$PATH"
 test -d "/usr/games" && PATH="/usr/games:$PATH"
 test -d "/usr/local/games" && PATH="/usr/local/games:$PATH"
 test -d "$HOME/.dotfiles/bin" && PATH="$HOME/.dotfiles/bin:$PATH"
-
-# condense PATH entries
-export PATH=$(path.tcl)

@@ -1,6 +1,7 @@
 [core]
   editor = vim
 	trustctime = false
+  pager = more
 [color]
   branch = auto
   diff = auto
@@ -85,15 +86,6 @@
   pushNonFastForward = false
   implicitIdentity = false
   detachedHead = false
-[init]
-  templatedir = ~/.githooks/
-[hooks]
-  user = github DictumMortuum theio.vrefos@gmail.com
-  user = gitlab DictumMortuum theio.vrefos@gmail.com
-  user = bitbucket DictumMortuum dictummortuum339@gmail.com
-  user = gratgt02 {Dimitris Raviolos} dimitrios.raviolos@unify.com
-  user = gitsrv2 {Dimitris Raviolos} dimitrios.raviolos@unify.com
-  notabs = true
 [user]
-	email = dictummortuum339@gmail.com
-	name = Δημήτρης Ραβιόλος
+  name = Athens Production User
+  email = ComUS.ToolsAthens.us@unify.com

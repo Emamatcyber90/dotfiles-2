@@ -30,49 +30,8 @@ let base16colorspace=256
 " the plugins.
 let mapleader=","
 
-" =============== Vundle Initialization ===============
-" This loads all the plugins specified in ~/.vim/vundles.vim
-" Use Vundle plugin to manage all other plugins
-set rtp+=$DOT_HOME/.dotfiles/Vundle.vim
-call vundle#begin()
-
-" let Vundle manage Vundle, required
-Plugin 'gmarik/Vundle.vim'
-Plugin 'scrooloose/nerdtree'
-Plugin 'chriskempson/base16-vim'
-Plugin 'editorconfig/editorconfig-vim'
-Plugin 'tpope/vim-fugitive'
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
-
-" All of your Plugins must be added before the following line
-call vundle#end()            " required
-filetype plugin indent on    " required
-
-" Vundle plugin configuration
-" airline
-set laststatus=2
-let g:airline_theme='base16_ashes'
-let g:airline_skip_empty_sections = 1
-let g:airline_detect_paste = 1
-let g:airline_powerline_fonts = 1
-
-if !exists('g:airline_symbols')
-  let g:airline_symbols = {}
-endif
-let g:airline_symbols.space = "\ua0"
-
-let g:airline#extensions#tabline#enabled = 1
-
-let g:airline#extensions#tabline#left_sep = ' '
-let g:airline#extensions#tabline#left_alt_sep = '|'
-
 " NERDtree
 map <C-n> :NERDTreeToggle<CR>
-
-" base16
-colorscheme base16-ashes
-set background=dark
 
 " ================ Turn Off Swap Files ==============
 set noswapfile

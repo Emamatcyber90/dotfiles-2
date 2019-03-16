@@ -1,1 +1,3 @@
-thirdparty: ~/.thirdparty
+thirdparty: ~/.thirdparty/
+secret: ~/Sync/Secret/
+target_user: dictummortuum
